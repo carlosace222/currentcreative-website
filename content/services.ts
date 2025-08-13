@@ -1,4 +1,4 @@
-import { Search, TrendingUp, Globe, ChartBar, Megaphone, Users, Zap, Shield } from 'lucide-react'
+import { Search, TrendingUp, Globe, BarChart3, Megaphone, Users, Zap, Shield } from 'lucide-react'
 import { LucideIcon } from 'lucide-react'
 
 export interface Service {
@@ -102,7 +102,7 @@ export const services: Service[] = [
     slug: 'analytics-reporting',
     title: 'Analytics & Reporting',
     description: 'Turn data into actionable insights that drive growth.',
-    icon: ChartBar,
+    icon: BarChart3,
     longDescription: 'We implement comprehensive analytics solutions that track every important metric of your digital presence. Our custom dashboards give you real-time insights into what\'s working and what needs improvement.',
     features: [
       'Google Analytics 4 setup',

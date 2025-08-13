@@ -9,6 +9,7 @@ import Script from 'next/script'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://currentcreative.ai'),
   title: 'Current Creative AI | Digital Marketing & Web Development | Rockland County NY',
   description: 'Transform your business with data-driven digital marketing and custom web solutions. Serving Rockland County and Lower Hudson Valley. Free strategy session available.',
   keywords: 'digital marketing rockland county, web development nyack, seo new city ny, marketing consultant pearl river',
