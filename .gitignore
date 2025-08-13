@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Production
+.vercel
+
+# misc
+.DS_Store
+*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
